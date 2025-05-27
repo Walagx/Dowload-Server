@@ -2,3 +2,6 @@ tor-browser-linux-x86_64-14.5.2.tar.xz filter=lfs diff=lfs merge=lfs -text
 git-lfs-linux-amd64-v3.6.1.tar.gz filter=lfs diff=lfs merge=lfs -text
 *.deb filter=lfs diff=lfs merge=lfs -text
 peazip_10.4.0.LINUX.GTK2-1_amd64.deb filter=lfs diff=lfs merge=lfs -text
+WaifuDownloader.tar.gz filter=lfs diff=lfs merge=lfs -text
+CatgirlDownloader.tar.gz filter=lfs diff=lfs merge=lfs -text
+NyarchAssistant.tar.gz filter=lfs diff=lfs merge=lfs -text

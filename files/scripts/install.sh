@@ -2,6 +2,7 @@
 
 # List of packages
 packages=(
+flatpak
 wget
 curl
 git
@@ -107,7 +108,6 @@ mesa-vulkan-drivers:i386
 mount
 musl-tools
 nano
-
 neofetch
 netbase
 nftables
@@ -115,16 +115,12 @@ openssl
 orca
 passwd
 pcregrep
-
-
 php
 php8.2-cli
 php8.2-opcache
 php8.2-readline
 pidgin
 pkg-config
-
-
 pv
 python3
 python3-apt
@@ -134,15 +130,12 @@ python3-psutil
 python3-requests
 python3-setuptools
 readline-common
-remmina
 screenfetch
-
 sed
 sensible-utils
 sound-juicer
 sound-theme-freedesktop
 stacer
-
 sudo
 synaptic
 system-config-printer
@@ -155,17 +148,11 @@ task-laptop
 task-ssh-server
 tasksel
 tasksel-data
-
 tlp
 tlp-rdw
-
-
 vim
-
 wget
-
 zram-tools
-
 )
 
 # List of files
