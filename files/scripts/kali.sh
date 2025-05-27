@@ -16,6 +16,8 @@ sudo apt install kali-defaults -y
 
 sudo apt update
 sudo apt upgrade -y
-sudo apt install firmware-mediatek
+sudo apt install firmware-mediatek -y
+sudo apt install hak5-wifi-coconut -y
+
 
 

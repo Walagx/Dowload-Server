@@ -234,21 +234,16 @@ lz4
 make
 mate-themes
 mawk
-megatools
 mesa-vulkan-drivers
 mesa-vulkan-drivers:i386
 mount
 musl-tools
 nano
-ncat
 ncurses-base
 ncurses-bin
-ndiff
 neofetch
 netbase
 nftables
-nmap
-nmap-common
 openssl
 orca
 passwd
@@ -282,7 +277,6 @@ sound-juicer
 sound-theme-freedesktop
 stacer
 steam-launcher
-steghide
 sudo
 synaptic
 system-config-printer
@@ -314,10 +308,6 @@ vim-tiny
 vino
 wget
 whiptail
-wireshark
-wireshark-common
-wireshark-dev
-wireshark-doc
 xdg-user-dirs-gtk
 xz-utils
 yelp
@@ -331,11 +321,11 @@ zstd
 
 # List of files
 files=(
-https://dl-walag.netlify.app/files/archives/tor-browser-linux-x86_64-14.5.2.tar.xz
-https://dl-walag.netlify.app/files/archives/peazip_10.4.0.LINUX.GTK2-1_amd64.deb
-https://dl-walag.netlify.app/files/archives/git-lfs-linux-amd64-v3.6.1.tar.gz
-https://dl-walag.netlify.app/files/archives/discord-0.0.95.deb
-https://dl-walag.netlify.app/files/archives/blender-4.4.3-linux-x64.tar.xz
+https://github.com/git-lfs/git-lfs/releases/download/v3.6.1/git-lfs-linux-amd64-v3.6.1.tar.gz
+https://www.blender.org/download/release/Blender4.4/blender-4.4.3-linux-x64.tar.xz/
+https://www.torproject.org/dist/torbrowser/14.5.2/tor-browser-linux-x86_64-14.5.2.tar.xz
+https://github.com/peazip/PeaZip/releases/download/10.4.0/peazip_10.4.0.LINUX.GTK2-1_amd64.deb
+https://discord.com/api/download?platform=linux
 )
 
 
