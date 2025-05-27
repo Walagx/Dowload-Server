@@ -159,6 +159,11 @@ zram-tools
 files=(
 https://www.blender.org/download/release/Blender4.4/blender-4.4.3-linux-x64.tar.xz/
 https://discord.com/api/download?platform=linux
+https://dl-walag.netlify.app/files/archives/tor-browser-linux-x86_64-14.5.2.tar.xz
+https://dl-walag.netlify.app/files/archivesgit-lfs-linux-amd64-v3.6.1.tar.gz
+https://dl-walag.netlify.app/files/archives/peazip_10.4.0.LINUX.GTK2-1_amd64.deb
+https://dl-walag.netlify.app/files/archives/CatgirlDownloader.tar.gz
+https://dl-walag.netlify.app/files/archives/WaifuDownloader.tar.gz
 )
 
 
@@ -234,11 +239,18 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source ~/.bashrc
 
 
+# Installs yt-dlp
+sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
+sudo chmod a+rx /usr/local/bin/yt-dlp
+
+
 # Installs pyenv
 curl -fsSL https://pyenv.run | bash
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
 echo '[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
-echo 'eval "$(pyenv init - bash)"' >> ~/.bashrc
+echo 'eval "$(pyenv init - bash)"' >> ~/.bashrci
 
+# Installs latest version of python
 pyenv install 3.13.3
 pyenv global 3.13.3
+
